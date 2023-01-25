@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.btn {
+    @apply border-2 border-black rounded-md pt-[0.375px] pb-[0.375px] pl-5 pr-5 mr-4 ml-4
+    uppercase inline-block text-[.875rem] shadow-sm tracking-[0.25rem]
+    hover:bg-black hover:text-white hover:duration-500;
+}
